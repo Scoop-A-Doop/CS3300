@@ -1,5 +1,6 @@
 require 'rails_helper'
 
+# Cases for the projects whether it should be successful (no issues) or fail (throw a specific error message) depending on the situation
 RSpec.feature "Projects", type: :feature do
   context "Create new project" do
     before(:each) do

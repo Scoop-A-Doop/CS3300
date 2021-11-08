@@ -1,5 +1,6 @@
 require "rails_helper"
 
+# Test to make sure that the description isn't empty and to see if the project is successfully saving
 RSpec.describe Project, type: :model do
   context "validations tests" do
     it "ensures the description is present" do
@@ -14,6 +15,7 @@ RSpec.describe Project, type: :model do
     end
   end
 
+  # Scope is to test several projects in various of other situations
   context "scopes tests" do
     let(:params) { { title: "Title", description: "some description" } }
     before(:each) do

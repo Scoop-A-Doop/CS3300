@@ -1,5 +1,6 @@
 require "rails_helper"
 
+# Make sure that the controller is responding to the browser successfully. Otherwise it can throw an error
 RSpec.describe ProjectsController, type: :controller do
   context "GET #index" do
     it "returns a success response" do
@@ -16,4 +17,4 @@ RSpec.describe ProjectsController, type: :controller do
       expect(response).to be_success
     end
   end
-end
+end 

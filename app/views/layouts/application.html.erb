@@ -4,11 +4,11 @@
     <title>CS3300</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+ 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
+ 
   <body>
     <% if user_signed_in? %>
       Logged in as <strong><%= current_user.email %></strong>.
@@ -19,5 +19,4 @@
     <% end %>
     <%= yield %>
   </body>
-
 </html>

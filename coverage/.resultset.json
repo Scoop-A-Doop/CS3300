@@ -5,6 +5,7 @@
         "lines": [
           1,
           1,
+          1,
           null,
           null,
           1,
@@ -74,12 +75,6 @@
           null
         ]
       },
-      "/root/CS3300/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
       "/root/CS3300/app/models/project.rb": {
         "lines": [
           1,
@@ -89,60 +84,11 @@
           null
         ]
       },
-      "/root/CS3300/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/root/CS3300/app/channels/application_cable/channel.rb": {
+      "/root/CS3300/app/models/user.rb": {
         "lines": [
           0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/CS3300/app/channels/application_cable/connection.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/CS3300/app/jobs/application_job.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/CS3300/app/helpers/application_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/CS3300/app/helpers/projects_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/CS3300/app/mailers/application_mailer.rb": {
-        "lines": [
-          0,
+          null,
+          null,
           0,
           0,
           0
@@ -151,6 +97,6 @@
         }
       }
     },
-    "timestamp": 1636343945
+    "timestamp": 1638297920
   }
 }

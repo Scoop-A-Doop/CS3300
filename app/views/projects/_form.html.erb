@@ -1,3 +1,8 @@
+<style>
+field {
+  background-color: #c0c0c0;
+}
+</style>
 <%= form_with(model: project, local: true) do |form| %>
   <% if project.errors.any? %>
     <div id="error_explanation">
@@ -11,17 +16,17 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title %>
+  <div class="navbar-nav mr-auto text-center">
+    <strong><%= form.label :title %></strong>
   </div>
+  <center><%= form.text_field :title %></center>
 
-  <div class="field">
+  <div class="navbar-nav mr-auto text-center">
     <%= form.label :description %>
-    <%= form.text_area :description %>
   </div>
+  <center><%= form.text_area :description %></center>
 
   <div class="actions">
-    <%= form.submit %>
+    <center><%= form.submit %></center>
   </div>
 <% end %>

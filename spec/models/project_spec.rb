@@ -1,4 +1,4 @@
-require "rails_helper"
+require 'rails_helper'
 
 # Test to make sure that the description isn't empty and to see if the project is successfully saving
 RSpec.describe Project, type: :model do
@@ -7,7 +7,6 @@ RSpec.describe Project, type: :model do
       project = Project.new(description: "Content of the description")
       expect(project.valid?).to eq(false)
     end
-
     
     it "should be able to save project" do
       project = Project.new(title: "Title", description: "Some description content goes here")

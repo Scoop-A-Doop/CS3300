@@ -1,14 +1,25 @@
+<style>
+body {
+  background-color: #999999;
+}
+something {
+  background-color: #999999;
+  font-size: 10px;
+}
+</style>
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
-  <%= @project.title %>
+  <center><strong>Title</strong>
+  <br>
+  <%= @project.title %></center>
 </p>
 
 <p>
-  <strong>Description:</strong>
-  <%= @project.description %>
+  <center><strong>Description</strong>
+  <br>
+  <%= @project.description %></center>
 </p>
 
-<%= link_to 'Edit', edit_project_path(@project) %> |
-<%= link_to 'Back', projects_path %>
+<center><u><%= link_to 'Edit', edit_project_path(@project) %></u> |
+<u><%= link_to 'Back', projects_path %></u></center>

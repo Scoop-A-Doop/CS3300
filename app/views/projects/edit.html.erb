@@ -1,6 +1,17 @@
+<style>
+h1 {
+  color: blue;
+  background-color: #c0c0c0;
+  border: none;
+  text-align: center;
+}
+body {
+  background-color: #999999;
+}
+</style>
 <h1>Editing Project</h1>
 
 <%= render 'form', project: @project %>
 
-<%= link_to 'Show', @project %> |
-<%= link_to 'Back', projects_path %>
+<center><u><%= link_to 'Show', @project %></u> |
+<u><%= link_to 'Back', projects_path %></u></center>

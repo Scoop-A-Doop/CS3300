@@ -1,7 +1,24 @@
 <p id="notice"><%= notice %></p>
 
+<style>
+h1 {
+  color: blue;
+  border: none;
+  text-align: center;
+}
+
+table {
+  background-color: #c0c0c0;
+}
+
+body {
+  background-color: #999999;
+}
+</style>
+
 <h1>Projects</h1>
 
+<div class="navbar-nav mr-auto text-center">
 <table>
   <thead>
     <tr>
@@ -16,14 +33,16 @@
       <tr>
         <td><%= project.title %></td>
         <td><%= project.description %></td>
-        <td><%= link_to 'Show', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
-        <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><u><%= link_to 'Show', project %></u></td>
+        <td><u><%= link_to 'Edit', edit_project_path(project) %></u></td>
+        <td><u><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></u></td>
       </tr>
     <% end %>
   </tbody>
 </table>
-
+</div>
 <br>
 
-<%= link_to 'New Project', new_project_path %>
+    <center><u><%= link_to 'New Project', new_project_path %></u></center>
+
+</div>

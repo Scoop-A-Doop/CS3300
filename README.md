@@ -5,7 +5,6 @@ Portfolio Project 12/05/21
 Using a database, you are able to create an account and create "Projects" to add to your portfolio.
 
 **Features**
-- Hold a database of user accounts
 - Create brand new accounts
 - Delete your account
 - Edit your profile

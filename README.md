@@ -1,6 +1,6 @@
 # README 
 
-Portfolio Project 12/05/21
+Portfolio Project 1.0.0 
 
 Using a database, you are able to create an account and create "Projects" to add to your portfolio.
 

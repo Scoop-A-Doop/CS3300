@@ -1,24 +1,16 @@
-# README
+# README 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Portfolio Project 12/17/21
 
-Things you may want to cover:
+Using a database system, you are able to create an account and create "Projects" to add to your portfolio.
 
-* Ruby version
+**Features**
+- Hold a database of user accounts
+- Create brand new accounts
+- Delete your account
+- Edit your profile
+- Create an unlimited number of projects
+- Edit and delete any of _your__ projects
+- View projects
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Access here: https://afternoon-peak-34660.herokuapp.com/

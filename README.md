@@ -14,4 +14,6 @@ Using a database, you are able to create an account and create "Projects" to add
 - Edit and delete any of _your_ projects
 - View projects
 
+This project was made under the AGILE methodology. This project also uses Heroku and CircleCI.
+
 Access here: https://afternoon-peak-34660.herokuapp.com/
